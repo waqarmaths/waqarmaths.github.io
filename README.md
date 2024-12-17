@@ -1,6 +1,6 @@
-# Waqar Maths  
+# Waqar Ali Soomro  
 ## Biography  
-Welcome to my academic website! I am passionate about research and higher education, with a focus on building a strong academic portfolio for my PhD scholarship.
+My First name is Waqar Ali, and Soomro is my family name, I am very passionate about Mathematics, I did my bachelor's in Civil Engineering but during my bachelor's I found my self deviated to Mathematics, 
 
 ## Research  
 - **Forecasting using Bayesian VAR Model** 
@@ -8,8 +8,8 @@ Welcome to my academic website! I am passionate about research and higher educat
 
 ## Certifications & Courses  
 - **Probability - The Science of Uncertainty and Data by MIT university**: Edx  
-- **Fundamentals of Statistics by MIT University **: Edx  
+- **Fundamentals of Statistics by MIT University**: Edx  
 
 ## Contact  
-- **Email**: waqar.maths@example.com  
+- **Email**: waqar.soomro124@gmail.com  
 - **LinkedIn**: [LinkedIn Profile Link]  
