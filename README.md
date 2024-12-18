@@ -18,6 +18,7 @@
             line-height: 1.6;
             background: linear-gradient(to bottom right, #004466, #006080, #e6f7ff);
             color: #333;
+            padding-top: 70px; /* Fixed space for the navigation bar */
         }
 
         /* Navigation Bar */
@@ -54,13 +55,13 @@
 
         /* Sections */
         section {
-            padding: 150px 20px 80px; /* Added top padding to prevent overlap */
+            padding: 40px 20px;
             text-align: center;
         }
 
         #home {
             color: #fff;
-            padding: 200px 20px 50px; /* Fixed padding for home section */
+            padding: 50px 20px;
         }
 
         #home img {
