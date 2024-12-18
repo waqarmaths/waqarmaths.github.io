@@ -1,4 +1,4 @@
-**<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,6 +20,7 @@
             padding-top: 80px;
         }
 
+        /* Navigation */
         header {
             background-color: #002244;
             color: #fff;
@@ -46,10 +47,10 @@
             font-weight: bold;
         }
 
+        /* Home Section */
         #home {
             text-align: center;
             color: #fff;
-            padding: 50px 20px 0;
         }
 
         #home img {
@@ -123,4 +124,3 @@
     </footer>
 </body>
 </html>
-**
