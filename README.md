@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="profile.jpg" alt="Profile Picture" width="200px" height="200px">
+    <img src="IMG-20230815-WA0003.jpg" alt="Profile Picture" width="200px" height="200px">
 </p>
 
 <h1 align="center">Waqar Ali Soomro</h1>
