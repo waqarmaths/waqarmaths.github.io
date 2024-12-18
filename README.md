@@ -16,7 +16,7 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background: linear-gradient(135deg, #002244, #005a87, #f4f7ff);
+            background: linear-gradient(to bottom right, #004466, #006080, #e6f7ff);
             color: #333;
         }
 
@@ -57,13 +57,13 @@
 
         /* Sections */
         section {
-            padding: 80px 20px;
+            padding: 120px 20px 80px;
             text-align: center;
         }
 
         #home {
             color: #fff;
-            padding: 120px 20px;
+            padding: 150px 20px 50px;
         }
 
         #home img {
@@ -75,23 +75,38 @@
         }
 
         #home h1 {
-            margin: 20px 0;
+            margin: 20px 0 10px;
             font-size: 3em;
+            color: #ffeb3b;
         }
 
         #home h3 {
             font-size: 1.5em;
+            color: #f5f5f5;
         }
 
         h2 {
             margin-bottom: 20px;
             font-size: 2em;
-            color: #005a87;
+            color: #002244;
         }
 
         p {
             font-size: 1.1em;
             line-height: 1.8;
+            color: #333;
+        }
+
+        /* Links in Content */
+        a {
+            color: #005a87;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #f39c12;
+            text-decoration: underline;
         }
 
         /* Footer */
@@ -100,6 +115,9 @@
             padding: 10px;
             background-color: #002244;
             color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
