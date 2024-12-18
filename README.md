@@ -35,8 +35,6 @@
 
         nav ul {
             list-style: none;
-            padding: 0;
-            margin: 0;
         }
 
         nav ul li {
@@ -48,7 +46,6 @@
             color: #fff;
             text-decoration: none;
             font-weight: bold;
-            transition: color 0.3s;
         }
 
         nav ul li a:hover {
@@ -77,12 +74,10 @@
         #home h1 {
             margin: 20px 0 10px;
             font-size: 3em;
-            color: #ffeb3b;
         }
 
         #home h3 {
             font-size: 1.5em;
-            color: #f5f5f5;
         }
 
         h2 {
@@ -94,19 +89,6 @@
         p {
             font-size: 1.1em;
             line-height: 1.8;
-            color: #333;
-        }
-
-        /* Links in Content */
-        a {
-            color: #005a87;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            color: #f39c12;
-            text-decoration: underline;
         }
 
         /* Footer */
@@ -115,9 +97,6 @@
             padding: 10px;
             background-color: #002244;
             color: #fff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
