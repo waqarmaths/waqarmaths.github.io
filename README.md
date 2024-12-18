@@ -54,13 +54,13 @@
 
         /* Sections */
         section {
-            padding: 120px 20px 80px;
+            padding: 150px 20px 80px; /* Added top padding to prevent overlap */
             text-align: center;
         }
 
         #home {
             color: #fff;
-            padding: 150px 20px 50px;
+            padding: 200px 20px 50px; /* Fixed padding for home section */
         }
 
         #home img {
@@ -89,6 +89,7 @@
         p {
             font-size: 1.1em;
             line-height: 1.8;
+            color: #333;
         }
 
         /* Footer */
