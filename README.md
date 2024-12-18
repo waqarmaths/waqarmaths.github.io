@@ -1,6 +1,5 @@
-<!-- Centered Circular Profile Picture -->
 <p align="center">
-    <img src="IMG-20230815-WA0003.jpg" alt="Profile Picture" width="180px" style="border: 5px solid #ddd; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+    <img src="profile.jpg" alt="Profile Picture" width="200px" height="200px">
 </p>
 
 <h1 align="center">Waqar Ali Soomro</h1>
