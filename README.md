@@ -18,7 +18,7 @@
             line-height: 1.6;
             background: linear-gradient(to bottom right, #004466, #006080, #e6f7ff);
             color: #333;
-            padding-top: 70px; /* Push content below the navigation bar */
+            padding-top: 70px; /* Space for fixed navigation */
         }
 
         /* Navigation Bar */
@@ -54,13 +54,13 @@
 
         /* Sections */
         section {
-            padding: 60px 20px;
+            padding: 80px 20px;
             text-align: center;
         }
 
         #home {
             color: #fff;
-            padding: 80px 20px 40px;
+            padding: 120px 20px 50px;
         }
 
         #home img {
@@ -68,6 +68,7 @@
             height: 180px;
             border-radius: 50%;
             border: 4px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         #home h1 {
@@ -75,9 +76,14 @@
             font-size: 3em;
         }
 
+        #home h3 {
+            font-size: 1.5em;
+        }
+
         h2 {
             margin-bottom: 20px;
             font-size: 2em;
+            color: #002244;
         }
 
         p {
@@ -132,7 +138,7 @@
     <section id="contact">
         <h2>📧 Contact</h2>
         <p><strong>Email</strong>: <a href="mailto:waqar.soomro124@gmail.com">waqar.soomro124@gmail.com</a></p>
-        <p><strong>LinkedIn</strong>: <a href="#">Your LinkedIn Profile</a></p>
+        <p><strong>LinkedIn</strong>: <a href="#" target="_blank">Your LinkedIn Profile</a></p>
     </section>
 
     <!-- Footer -->
