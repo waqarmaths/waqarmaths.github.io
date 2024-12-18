@@ -118,7 +118,7 @@
 
     <!-- Home Section -->
     <section id="home">
-        <img src="images/profile.jpg" alt="Profile Picture">
+        <img src="IMG-20230815-WA0003.jpg" alt="Profile Picture">
         <h1>Waqar Ali Soomro</h1>
         <h3>Mathematics Enthusiast | Researcher | Aspiring Scholar</h3>
     </section>
