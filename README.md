@@ -16,7 +16,7 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f4f7ff;
+            background: linear-gradient(135deg, #002244, #005a87, #f4f7ff);
             color: #333;
         }
 
@@ -30,6 +30,7 @@
             width: 100%;
             top: 0;
             z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
         nav ul {
@@ -47,6 +48,7 @@
             color: #fff;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s;
         }
 
         nav ul li a:hover {
@@ -55,14 +57,13 @@
 
         /* Sections */
         section {
-            padding: 60px 20px;
+            padding: 80px 20px;
             text-align: center;
         }
 
         #home {
-            background: url('images/background.jpg') no-repeat center center/cover;
             color: #fff;
-            padding: 100px 20px;
+            padding: 120px 20px;
         }
 
         #home img {
@@ -70,10 +71,27 @@
             height: 180px;
             border-radius: 50%;
             border: 4px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
-        h1, h3 {
+        #home h1 {
             margin: 20px 0;
+            font-size: 3em;
+        }
+
+        #home h3 {
+            font-size: 1.5em;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #005a87;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.8;
         }
 
         /* Footer */
@@ -100,7 +118,7 @@
 
     <!-- Home Section -->
     <section id="home">
-        <img src="IMG-20230815-WA0003.jpg.jpg" alt="Profile Picture">
+        <img src="images/profile.jpg" alt="Profile Picture">
         <h1>Waqar Ali Soomro</h1>
         <h3>Mathematics Enthusiast | Researcher | Aspiring Scholar</h3>
     </section>
