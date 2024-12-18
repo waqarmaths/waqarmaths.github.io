@@ -1,6 +1,6 @@
-# <p align="center" style="font-size: 40px;">🧮 Waqar Ali Soomro 🧮</p>
+# 🧮 Waqar Ali Soomro 🧮  
 <p align="center">
-    <img src="cover.webp" alt="Mathematical Cover Photo" width="100%">
+    <img src="cover.webp" alt="Mathematical Cover Photo" width="900px" height="auto">
 </p>
 
 ---
