@@ -18,6 +18,7 @@
             line-height: 1.6;
             background: linear-gradient(to bottom right, #004466, #006080, #e6f7ff);
             color: #333;
+            padding-top: 70px; /* Push content below the navigation bar */
         }
 
         /* Navigation Bar */
@@ -30,7 +31,6 @@
             width: 100%;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
         nav ul {
@@ -54,13 +54,13 @@
 
         /* Sections */
         section {
-            padding: 100px 20px 80px; /* Adjusted padding to avoid overlap */
+            padding: 60px 20px;
             text-align: center;
         }
 
         #home {
             color: #fff;
-            padding: 120px 20px 50px;
+            padding: 80px 20px 40px;
         }
 
         #home img {
@@ -68,7 +68,6 @@
             height: 180px;
             border-radius: 50%;
             border: 4px solid #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         #home h1 {
@@ -76,28 +75,22 @@
             font-size: 3em;
         }
 
-        #home h3 {
-            font-size: 1.5em;
-        }
-
         h2 {
             margin-bottom: 20px;
             font-size: 2em;
-            color: #002244;
         }
 
         p {
             font-size: 1.1em;
             line-height: 1.8;
-            color: #333;
         }
 
-        /* Footer */
         footer {
             text-align: center;
             padding: 10px;
             background-color: #002244;
             color: #fff;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -125,11 +118,10 @@
     <section id="biography">
         <h2>📜 Biography</h2>
         <p>I am <strong>Waqar Ali Soomro</strong>, a passionate mathematics enthusiast.  
-            Though I completed my <strong>Bachelor's in Civil Engineering</strong>, my love for mathematics led me to pursue a  
-            <strong>Master's in Applied Mathematics</strong> at <strong>NED University, Karachi, Pakistan</strong>.</p>
+        I completed my <strong>Bachelor's in Civil Engineering</strong> but developed a strong interest in mathematics, leading me to pursue a <strong>Master's in Applied Mathematics</strong> at NED University, Karachi, Pakistan.</p>
     </section>
 
-    <!-- Research and Projects Section -->
+    <!-- Research Section -->
     <section id="research">
         <h2>📊 Research and Projects</h2>
         <p><strong>Forecasting using Bayesian VAR Model</strong></p>
@@ -140,7 +132,7 @@
     <section id="contact">
         <h2>📧 Contact</h2>
         <p><strong>Email</strong>: <a href="mailto:waqar.soomro124@gmail.com">waqar.soomro124@gmail.com</a></p>
-        <p><strong>LinkedIn</strong>: <a href="#" target="_blank">Your LinkedIn Profile</a></p>
+        <p><strong>LinkedIn</strong>: <a href="#">Your LinkedIn Profile</a></p>
     </section>
 
     <!-- Footer -->
