@@ -1,18 +1,19 @@
-# <p align="center">🧮 Waqar Ali Soomro 🧮</p>
 <p align="center">
-    <img src="IMG-20230815-WA0003.jpg" alt="Profile Picture" width="200px" height="200px" style="border-radius: 50%;">
+    <img src="profile.jpg" alt="Profile Picture" width="180px" style="border-radius: 50%;">
 </p>
+
+<h1 align="center">Waqar Ali Soomro</h1>
+<h3 align="center">Mathematics Enthusiast | Researcher | Aspiring Scholar</h3>
 
 ---
 
 ## 📜 Biography  
-My first name is **Waqar Ali**, and Soomro is my family name. I am very passionate about **Mathematics**.  
-I completed my bachelor's in Civil Engineering, but during my studies, I discovered a deep interest in **Mathematics**.  
-This led me to pursue a **Master's in Applied Mathematics** from **NED University, Karachi, Pakistan**.
+I am **Waqar Ali Soomro**, a passionate mathematics enthusiast.  
+Though I completed my **Bachelor's in Civil Engineering**, my love for mathematics led me to pursue a **Master's in Applied Mathematics** at **NED University, Karachi, Pakistan**.
 
 ---
 
-## 📊 Research and Projects
+## 📊 Research and Projects  
 - **Forecasting using Bayesian VAR Model**  
 - **Gaussian Copula**  
 
@@ -24,8 +25,8 @@ This led me to pursue a **Master's in Applied Mathematics** from **NED Universit
 
 ---
 
-## 🤖 My Experience in Machine Learning  
-In my second semester of **Master's in Applied Mathematics**, I developed a strong foundation in **Machine Learning**, focusing on probabilistic models and mathematical underpinnings.
+## 🤖 Experience in Machine Learning  
+During my **Master's program**, I developed expertise in **Machine Learning** with a strong focus on probabilistic models and their mathematical foundations.
 
 ---
 
