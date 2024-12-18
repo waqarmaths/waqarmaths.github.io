@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waqar Ali Soomro | Portfolio</title>
     <style>
-        /* Reset some browser defaults */
+        /* Reset browser defaults */
         * {
             margin: 0;
             padding: 0;
@@ -18,7 +18,7 @@
             line-height: 1.6;
             background: linear-gradient(to bottom right, #004466, #006080, #e6f7ff);
             color: #333;
-            padding-top: 70px; /* Space for fixed navigation */
+            padding-top: 80px; /* Space for fixed navigation */
         }
 
         /* Navigation Bar */
@@ -54,13 +54,12 @@
 
         /* Sections */
         section {
-            padding: 80px 20px;
+            padding: 60px 20px;
             text-align: center;
         }
 
         #home {
             color: #fff;
-            padding: 120px 20px 50px;
         }
 
         #home img {
@@ -72,12 +71,8 @@
         }
 
         #home h1 {
-            margin: 20px 0 10px;
+            margin: 20px 0;
             font-size: 3em;
-        }
-
-        #home h3 {
-            font-size: 1.5em;
         }
 
         h2 {
@@ -89,6 +84,7 @@
         p {
             font-size: 1.1em;
             line-height: 1.8;
+            color: #333;
         }
 
         footer {
