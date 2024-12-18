@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waqar Ali Soomro | Portfolio</title>
     <style>
-        /* Reset browser defaults */
         * {
             margin: 0;
             padding: 0;
@@ -18,10 +17,9 @@
             line-height: 1.6;
             background: linear-gradient(to bottom right, #004466, #006080, #e6f7ff);
             color: #333;
-            padding-top: 80px; /* Space for fixed navigation */
+            padding-top: 80px;
         }
 
-        /* Navigation Bar */
         header {
             background-color: #002244;
             color: #fff;
@@ -48,18 +46,10 @@
             font-weight: bold;
         }
 
-        nav ul li a:hover {
-            color: #f39c12;
-        }
-
-        /* Sections */
-        section {
-            padding: 60px 20px;
-            text-align: center;
-        }
-
         #home {
+            text-align: center;
             color: #fff;
+            padding: 50px 20px 0;
         }
 
         #home img {
@@ -67,24 +57,16 @@
             height: 180px;
             border-radius: 50%;
             border: 4px solid #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         #home h1 {
-            margin: 20px 0;
             font-size: 3em;
+            margin-top: 20px;
         }
 
-        h2 {
-            margin-bottom: 20px;
-            font-size: 2em;
-            color: #002244;
-        }
-
-        p {
-            font-size: 1.1em;
-            line-height: 1.8;
-            color: #333;
+        section {
+            padding: 50px 20px;
+            text-align: center;
         }
 
         footer {
@@ -92,12 +74,11 @@
             padding: 10px;
             background-color: #002244;
             color: #fff;
-            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- Navigation -->
     <header>
         <nav>
             <ul>
@@ -133,8 +114,7 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>📧 Contact</h2>
-        <p><strong>Email</strong>: <a href="mailto:waqar.soomro124@gmail.com">waqar.soomro124@gmail.com</a></p>
-        <p><strong>LinkedIn</strong>: <a href="#" target="_blank">Your LinkedIn Profile</a></p>
+        <p>Email: <a href="mailto:waqar.soomro124@gmail.com">waqar.soomro124@gmail.com</a></p>
     </section>
 
     <!-- Footer -->
