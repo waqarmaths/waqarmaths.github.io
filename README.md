@@ -59,11 +59,6 @@
             border: 4px solid #fff;
         }
 
-        #home h1 {
-            font-size: 3em;
-            margin-top: 20px;
-        }
-
         section {
             padding: 50px 20px;
             text-align: center;
@@ -93,7 +88,6 @@
     <!-- Home Section -->
     <section id="home">
         <img src="IMG-20230815-WA0003.jpg" alt="Profile Picture">
-        <h1>Waqar Ali</h1>
         <h3>Mathematics Enthusiast | Researcher | Aspiring Scholar</h3>
     </section>
 
