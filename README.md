@@ -110,10 +110,12 @@
     <section id="certifications">
         <h2>📜 Online Certifications</h2>
         <ul style="list-style: none; text-align: left; display: inline-block;">
-            <li>✔️ <strong>Data Science Specialization</strong> - Coursera (Offered by Johns Hopkins University)</li>
-            <li>✔️ <strong>Bayesian Statistics: From Concept to Data Analysis</strong> - Coursera (Offered by University of California, Santa Cruz)</li>
-            <li>✔️ <strong>Python for Data Science and Machine Learning</strong> - Udemy</li>
-            <li>✔️ <strong>Mathematics for Machine Learning</strong> - Coursera (Imperial College London)</li>
+            <li>✔️ <strong>Statistics and Data Science MicroMasters Program </strong> - Edx (Offered by MIT University University)</li>
+            <li>✔️ <strong>Google Data Analysis Specialization</strong> - Coursera (Offered by Google)</li>
+            <li>✔️ <strong>Machine Learning Specialization </strong> - Coursera (Standford and Open AI)</li>
+            <li>✔️ <strong>MATLAB programming </strong> - Coursera (Vanderbelt Univeristy)</li>
+            <li>✔️ <strong>Machine Learning Techniques in MATLAB(LEARNING PATH) </strong> - Mathworks (Vanderbelt Univeristy)</li>
+          
         </ul>
     </section>
 
