@@ -1,9 +1,8 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waqar Ali Soomro | Portfolio</title>
+    <title>Waqar Ali | Portfolio</title>
     <style>
         * {
             margin: 0;
@@ -94,14 +93,14 @@
     <!-- Home Section -->
     <section id="home">
         <img src="IMG-20230815-WA0003.jpg" alt="Profile Picture">
-        <h1>Waqar Ali Soomro</h1>
+        <h1>Waqar Ali</h1>
         <h3>Mathematics Enthusiast | Researcher | Aspiring Scholar</h3>
     </section>
 
     <!-- Biography Section -->
     <section id="biography">
         <h2>📜 Biography</h2>
-        <p>I am <strong>Waqar Ali Soomro</strong>, a passionate mathematics enthusiast.  
+        <p>I am <strong>Waqar Ali</strong>, a passionate mathematics enthusiast.  
         I completed my <strong>Bachelor's in Civil Engineering</strong> but developed a strong interest in mathematics, leading me to pursue a <strong>Master's in Applied Mathematics</strong> at NED University, Karachi, Pakistan.</p>
     </section>
 
@@ -120,7 +119,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Waqar Ali Soomro | All Rights Reserved</p>
+        <p>&copy; 2024 Waqar Ali | All Rights Reserved</p>
     </footer>
 </body>
 </html>
