@@ -113,8 +113,12 @@
             <li>✔️ <strong>Statistics and Data Science MicroMasters Program </strong> - Edx (Offered by MIT University University)</li>
             <li>✔️ <strong>Google Data Analysis Specialization</strong> - Coursera (Offered by Google)</li>
             <li>✔️ <strong>Machine Learning Specialization </strong> - Coursera (Standford and Open AI)</li>
-            <li>✔️ <strong>MATLAB programming </strong> - Coursera (Vanderbelt Univeristy)</li>
-            <li>✔️ <strong>Machine Learning Techniques in MATLAB(LEARNING PATH) </strong> - Mathworks (Vanderbelt Univeristy)</li>
+            <li>✔️ <strong>MATLAB Programming for Engineers and Scientists </strong> - Coursera (Vanderbelt Univeristy)</li>
+            <li>✔️ <strong>Machine Learning Techniques in MATLAB(LEARNING PATH) </strong> - Mathworks (Vanderbilt Univeristy)</li> 
+            <li>✔️ <strong>Introduction to Logic and Critical Thinking Specialization </strong> - Coursera (Duke University)</li> 
+            <li>✔️ <strong>Operations Research Specialization </strong> - Coursera (Duke Univer)</li>
+            
+
           
         </ul>
     </section>
