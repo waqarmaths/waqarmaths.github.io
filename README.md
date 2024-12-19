@@ -80,6 +80,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#biography">Biography</a></li>
                 <li><a href="#research">Research</a></li>
+                <li><a href="#certifications">Online Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -103,6 +104,17 @@
         <h2>📊 Research and Projects</h2>
         <p><strong>Forecasting using Bayesian VAR Model</strong></p>
         <p><strong>Gaussian Copula</strong></p>
+    </section>
+
+    <!-- Online Certifications Section -->
+    <section id="certifications">
+        <h2>📜 Online Certifications</h2>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li>✔️ <strong>Data Science Specialization</strong> - Coursera (Offered by Johns Hopkins University)</li>
+            <li>✔️ <strong>Bayesian Statistics: From Concept to Data Analysis</strong> - Coursera (Offered by University of California, Santa Cruz)</li>
+            <li>✔️ <strong>Python for Data Science and Machine Learning</strong> - Udemy</li>
+            <li>✔️ <strong>Mathematics for Machine Learning</strong> - Coursera (Imperial College London)</li>
+        </ul>
     </section>
 
     <!-- Contact Section -->
