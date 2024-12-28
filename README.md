@@ -119,13 +119,24 @@
     <section id="certifications">
         <h2>📜 Certifications</h2>
         <ul style="list-style: none; text-align: left; display: inline-block;">
-            <li>✔️ Machine Learning Techniques in MATLAB - MathWorks</li>
-            <li>✔️ Machine Learning Specialization - DeepLearning.AI</li>
-            <li>✔️ Google Data Analytics Professional Certification</li>
-            <li>✔️ MATLAB Programming for Engineers and Scientists - Vanderbilt University</li>
-            <li>✔️ Data Analysis with R Programming - Google</li>
-            <li>✔️ Probability - The Science of Uncertainty and Data - MIT</li>
-            <li>✔️ Differential Equations and Linear Algebra - MIT</li>
+            <li>✔️ <strong>Machine Learning Techniques in MATLAB</strong> (MathWorks Learning Path - 4/4 Courses):
+                <ul>
+                    <li>Classification Methods with Machine Learning</li>
+                    <li>Regression Methods with Machine Learning</li>
+                    <li>Cluster Analysis with Machine Learning</li>
+                    <li>Dimensionality Reduction Techniques</li>
+                </ul>
+            </li>
+            <li>✔️ <strong>Machine Learning Specialization</strong> (DeepLearning.AI - 1/3 Courses):
+                <ul>
+                    <li>Supervised Machine Learning: Regression and Classification</li>
+                </ul>
+            </li>
+            <li>✔️ <strong>Google Data Analytics Professional Certification</strong> (5/8 Courses)</li>
+            <li>✔️ <strong>MATLAB Programming for Engineers and Scientists</strong> (Vanderbilt University - 1/3 Courses)</li>
+            <li>✔️ <strong>Data Analysis with R Programming</strong> (Google)</li>
+            <li>✔️ <strong>Probability - The Science of Uncertainty and Data</strong> (MIT)</li>
+            <li>✔️ <strong>Differential Equations and Linear Algebra</strong> (MIT)</li>
         </ul>
     </section>
 
