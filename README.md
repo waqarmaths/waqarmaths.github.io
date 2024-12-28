@@ -130,7 +130,7 @@
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#awards">Awards</a></li>
-                <li><a href="#extra">Volunteer Work</a></li>
+                <li><a href="#extra">Extra-Curricular & Volunteer Work</a></li>
                 <li><a href="#languages">Languages</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -152,7 +152,7 @@
 
     <section id="research">
         <h2>📊 Research and Projects</h2>
-        <ul>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
             <li><strong>Flowers Classification Project:</strong> Pre-trained model evaluation, feature concatenation, and ensemble modeling for high accuracy.</li>
             <li><strong>Gaussian Copula:</strong> Developed and visualized stochastic models for risk assessment using Python.</li>
             <li><strong>Vector Autoregression (VAR):</strong> Bayesian priors estimation, data truncation, forecasting, and impulse response analysis.</li>
@@ -161,20 +161,119 @@
 
     <section id="certifications">
         <h2>📜 Certifications</h2>
-        <ul>
-            <li>Machine Learning Techniques in MATLAB from MathWorks</li>
-            <li>Google Data Analytics Professional Certification</li>
-            <li>MATLAB Programming for Engineers and Scientists</li>
-            <!-- Additional certifications restored -->
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li><strong>Machine Learning:</strong></li>
+            <ul>
+                <li>Machine Learning Techniques in MATLAB from MathWorks (Learning Path with 4/4 Courses):
+                    <ul>
+                        <li>Classification Methods with Machine Learning</li>
+                        <li>Regression Methods with Machine Learning</li>
+                        <li>Cluster Analysis with Machine Learning</li>
+                        <li>Dimensionality Reduction Techniques</li>
+                    </ul>
+                </li>
+                <li>Machine Learning Specialization from DeepLearning.AI (1/3 courses):
+                    <ul>
+                        <li>Supervised Machine Learning: Regression and Classification</li>
+                    </ul>
+                </li>
+            </ul>
+            <li><strong>Operations Research Specialization:</strong></li>
+            <ul>
+                <li>Operations Research (1): Models and Applications</li>
+                <li>Operations Research (2): Optimization Algorithms</li>
+                <li>Operations Research (3): Theory</li>
+            </ul>
+            <li><strong>Introduction to Logic and Critical Thinking Specialization:</strong></li>
+            <ul>
+                <li>Think Again I: How to Understand Arguments</li>
+                <li>Think Again II: How to Reason Deductively</li>
+                <li>Think Again III: How to Reason Inductively</li>
+                <li>Think Again IV: How to Avoid Fallacies</li>
+            </ul>
+            <li><strong>Data Analysis:</strong></li>
+            <ul>
+                <li>Google Data Analytics Professional Certification (5/8 courses)</li>
+                <li>Calculate Basic Descriptive Statistics in Google Sheets by Coursera Network Project</li>
+                <li>Interpret Population and Sample Variances in Google Sheets by Coursera Network Project</li>
+                <li>Chi-Squared Test in Google Sheets by Deprecated Guided Projects</li>
+            </ul>
+            <li><strong>MATLAB Programming:</strong></li>
+            <ul>
+                <li>MATLAB Programming for Engineers and Scientists by Vanderbilt University (1/3 courses)</li>
+                <li>MATLAB Onramp from MathWorks</li>
+                <li>Introduction to Linear Algebra with MATLAB from MathWorks</li>
+                <li>Curve Fitting in MATLAB from MathWorks</li>
+            </ul>
+            <li><strong>Python Programming:</strong></li>
+            <ul>
+                <li>PCAP: Programming Essentials in Python from Cisco Networking Academy</li>
+                <li>Programming for Everybody (Getting Started with Python) from University of Michigan</li>
+            </ul>
+            <li><strong>R Programming:</strong></li>
+            <ul>
+                <li>Data Analysis with R Programming from Google</li>
+            </ul>
+            <li><strong>Microsoft Excel:</strong></li>
+            <ul>
+                <li>Introduction to Data Analysis using Microsoft Excel by Project Network</li>
+                <li>Problem Solving Using Microsoft Excel by Deprecated Guided Projects</li>
+            </ul>
+            <li><strong>Mathematics and Problem Solving:</strong></li>
+            <ul>
+                <li>Problem Solving Using Computational Thinking from University of Michigan</li>
+                <li>Probability - The Science of Uncertainty and Data from MIT</li>
+                <li>Differential Equations: 2x2 Systems from MIT</li>
+                <li>Differential Equations: Linear Algebra and NxN Systems of Differential Equations from MIT</li>
+                <li>Differential Equations: Fourier Series and Partial Differential Equations from MIT</li>
+                <li>Vector Calculus for Engineers from Hong Kong University of Science and Technology</li>
+                <li>Matrix Algebra for Engineers from Hong Kong University of Science and Technology</li>
+                <li>Fibonacci Numbers and the Golden Ratio by Hong Kong University of Science and Technology</li>
+                <li>Calculus through Data & Modelling: Series and Integration by John Hopkins University</li>
+            </ul>
         </ul>
     </section>
 
     <section id="skills">
         <h2>💻 Technical Skills</h2>
-        <ul>
-            <li>Machine Learning (Intermediate)</li>
-            <li>Data Analysis (Intermediate)</li>
-            <li>MATLAB (Intermediate)</li>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li>✔️ Machine Learning (Intermediate)</li>
+            <li>✔️ Data Analysis (Intermediate)</li>
+            <li>✔️ MATLAB (Intermediate)</li>
+            <li>✔️ Python (Intermediate)</li>
+            <li>✔️ R (Intermediate)</li>
+            <li>✔️ Problem Solving (Intermediate)</li>
+            <li>✔️ MS Office (Advanced)</li>
+        </ul>
+    </section>
+
+    <section id="extra">
+        <h2>✨ Extra-Curricular & Volunteer Work</h2>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li><strong>Community Service:</strong> Organized flood relief in Sindh, Pakistan (2022).</li>
+            <li><strong>Volunteer Teaching:</strong> Enhanced literacy in underserved communities in Pakistan (2016-2017).</li>
+        </ul>
+    </section>
+
+    <section id="awards">
+        <h2>🏆 Awards and Honors</h2>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li>✔️ Stipendium Hungaricum Scholar, Government of Hungary (2024-2026)</li>
+            <li>✔️ PM's National Laptop Scheme Awardee (2023)</li>
+            <li>✔️ Merit Scholarship Holder from Government of Pakistan (2018)</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2>🌐 Languages</h2>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li>✔️ English (B2/C1)</li>
+            <li>✔️ Urdu (Native)</li>
+            <li>✔️ Sindhi (Native)</li>
+            <li>✔️ Hindi (B2)</li>
+            <li>✔️ Punjabi (B2)</li>
+            <li>✔️ Arabic (A2 - Reading C2)</li>
+            <li>✔️ Magyar (A1)</li>
         </ul>
     </section>
 
