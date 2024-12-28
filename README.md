@@ -83,6 +83,7 @@
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#awards">Awards</a></li>
+                <li><a href="#languages">Languages</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -99,6 +100,7 @@
         <h2>📜 Biography</h2>
         <p>I am <strong>Waqar Ali</strong>, a passionate mathematics enthusiast and researcher. 
         I am pursuing my <strong>MSc in Applied Mathematics</strong> with a specialization in stochastic processes at Budapest University of Technology and Economics (BUTE), Hungary. I also hold a <strong>B.E. in Civil Engineering</strong> from Mehran University of Engineering and Technology, Pakistan.</p>
+        <p>My research is driven by a passion for stochastic modeling and its integration with machine learning, aiming to develop predictive models for complex systems.</p>
     </section>
 
     <!-- Research Section -->
@@ -108,6 +110,8 @@
             <li><strong>Flowers Classification Project:</strong> Pre-trained model evaluation, feature concatenation, and ensemble modeling for high accuracy.</li>
             <li><strong>Gaussian Copula:</strong> Developed and visualized stochastic models for risk assessment using Python.</li>
             <li><strong>Vector Autoregression (VAR):</strong> Bayesian priors estimation, data truncation, forecasting, and impulse response analysis.</li>
+            <li><strong>Community Service:</strong> Organized flood relief in Sindh, Pakistan (2022).</li>
+            <li><strong>Volunteer Teaching:</strong> Enhanced literacy in underserved communities in Pakistan (2016-2017).</li>
         </ul>
     </section>
 
@@ -146,6 +150,20 @@
             <li>✔️ Stipendium Hungaricum Scholar, Government of Hungary (2024-2026)</li>
             <li>✔️ PM's National Laptop Scheme Awardee (2023)</li>
             <li>✔️ Merit Scholarship Holder from Government of Pakistan (2018)</li>
+        </ul>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages">
+        <h2>🌐 Languages</h2>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li>✔️ English (B2/C1)</li>
+            <li>✔️ Urdu (Native)</li>
+            <li>✔️ Sindhi (Native)</li>
+            <li>✔️ Hindi (B2)</li>
+            <li>✔️ Punjabi (B2)</li>
+            <li>✔️ Arabic (A2 - Reading C2)</li>
+            <li>✔️ Magyar (A1)</li>
         </ul>
     </section>
 
