@@ -127,24 +127,50 @@
     <section id="certifications">
         <h2>📜 Certifications</h2>
         <ul style="list-style: none; text-align: left; display: inline-block;">
-            <li>✔️ <strong>Machine Learning Techniques in MATLAB</strong> (MathWorks Learning Path - 4/4 Courses):
-                <ul>
-                    <li>Classification Methods with Machine Learning</li>
-                    <li>Regression Methods with Machine Learning</li>
-                    <li>Cluster Analysis with Machine Learning</li>
-                    <li>Dimensionality Reduction Techniques</li>
-                </ul>
-            </li>
-            <li>✔️ <strong>Machine Learning Specialization</strong> (DeepLearning.AI - 1/3 Courses):
-                <ul>
-                    <li>Supervised Machine Learning: Regression and Classification</li>
-                </ul>
-            </li>
-            <li>✔️ <strong>Google Data Analytics Professional Certification</strong> (5/8 Courses)</li>
-            <li>✔️ <strong>MATLAB Programming for Engineers and Scientists</strong> (Vanderbilt University - 1/3 Courses)</li>
-            <li>✔️ <strong>Data Analysis with R Programming</strong> (Google)</li>
-            <li>✔️ <strong>Probability - The Science of Uncertainty and Data</strong> (MIT)</li>
-            <li>✔️ <strong>Differential Equations and Linear Algebra</strong> (MIT)</li>
+            <li><strong>Machine Learning:</strong></li>
+            <ul>
+                <li>Machine Learning Techniques in MATLAB from MathWorks (Learning Path with 4/4 Courses):
+                    <ul>
+                        <li>Classification Methods with Machine Learning</li>
+                        <li>Regression Methods with Machine Learning</li>
+                        <li>Cluster Analysis with Machine Learning</li>
+                        <li>Dimensionality Reduction Techniques</li>
+                    </ul>
+                </li>
+                <li>Machine Learning Specialization from DeepLearning.AI (1/3 courses):
+                    <ul>
+                        <li>Supervised Machine Learning: Regression and Classification</li>
+                    </ul>
+                </li>
+            </ul>
+            <li><strong>Data Analysis:</strong></li>
+            <ul>
+                <li>Google Data Analytics Professional Certification (5/8 courses)</li>
+            </ul>
+            <li><strong>MATLAB Programming:</strong></li>
+            <ul>
+                <li>MATLAB Programming for Engineers and Scientists by Vanderbilt University (1/3 courses)</li>
+                <li>MATLAB Onramp from MathWorks</li>
+                <li>Introduction to Linear Algebra with MATLAB from MathWorks</li>
+                <li>Curve Fitting in MATLAB from MathWorks</li>
+            </ul>
+            <li><strong>Python Programming:</strong></li>
+            <ul>
+                <li>PCAP: Programming Essentials in Python from Cisco Networking Academy</li>
+                <li>Programming for Everybody (Getting Started with Python) from University of Michigan</li>
+            </ul>
+            <li><strong>R Programming:</strong></li>
+            <ul>
+                <li>Data Analysis with R Programming from Google</li>
+            </ul>
+            <li><strong>Mathematics and Problem Solving:</strong></li>
+            <ul>
+                <li>Problem Solving Using Computational Thinking from University of Michigan</li>
+                <li>Probability - The Science of Uncertainty and Data from MIT</li>
+                <li>Differential Equations: 2x2 Systems from MIT</li>
+                <li>Differential Equations: Linear Algebra and NxN Systems of Differential Equations from MIT</li>
+                <li>Differential Equations: Fourier Series and Partial Differential Equations from MIT</li>
+            </ul>
         </ul>
     </section>
 
