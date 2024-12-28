@@ -80,7 +80,9 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#biography">Biography</a></li>
                 <li><a href="#research">Research</a></li>
-                <li><a href="#certifications">Online Certifications</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#awards">Awards</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -95,31 +97,55 @@
     <!-- Biography Section -->
     <section id="biography">
         <h2>📜 Biography</h2>
-        <p>I am <strong>Waqar Ali</strong>, a passionate mathematics enthusiast.  
-        I completed my <strong>Bachelor's in Civil Engineering</strong> but developed a strong interest in mathematics, leading me to pursue a <strong>Master's in Applied Mathematics</strong> at NED University, Karachi, Pakistan.</p>
+        <p>I am <strong>Waqar Ali</strong>, a passionate mathematics enthusiast and researcher. 
+        I am pursuing my <strong>MSc in Applied Mathematics</strong> with a specialization in stochastic processes at Budapest University of Technology and Economics (BUTE), Hungary. I also hold a <strong>B.E. in Civil Engineering</strong> from Mehran University of Engineering and Technology, Pakistan.</p>
     </section>
 
     <!-- Research Section -->
     <section id="research">
         <h2>📊 Research and Projects</h2>
-        <p><strong>Forecasting using Bayesian VAR Model</strong></p>
-        <p><strong>Gaussian Copula</strong></p>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li><strong>Flowers Classification Project:</strong> Pre-trained model evaluation, feature concatenation, and ensemble modeling for high accuracy.</li>
+            <li><strong>Gaussian Copula:</strong> Developed and visualized stochastic models for risk assessment using Python.</li>
+            <li><strong>Vector Autoregression (VAR):</strong> Bayesian priors estimation, data truncation, forecasting, and impulse response analysis.</li>
+        </ul>
     </section>
 
-    <!-- Online Certifications Section -->
+    <!-- Certifications Section -->
     <section id="certifications">
-        <h2>📜 Online Certifications</h2>
+        <h2>📜 Certifications</h2>
         <ul style="list-style: none; text-align: left; display: inline-block;">
-            <li>✔️ <strong>Statistics and Data Science MicroMasters Program </strong> - Edx (Offered by MIT University University)</li>
-            <li>✔️ <strong>Google Data Analysis Specialization</strong> - Coursera (Offered by Google)</li>
-            <li>✔️ <strong>Machine Learning Specialization </strong> - Coursera (Standford and Open AI)</li>
-            <li>✔️ <strong>MATLAB Programming for Engineers and Scientists </strong> - Coursera (Vanderbelt Univeristy)</li>
-            <li>✔️ <strong>Machine Learning Techniques in MATLAB(LEARNING PATH) </strong> - Mathworks (Vanderbilt Univeristy)</li> 
-            <li>✔️ <strong>Introduction to Logic and Critical Thinking Specialization </strong> - Coursera (Duke University)</li> 
-            <li>✔️ <strong>Operations Research Specialization </strong> - Coursera (Duke Univer)</li>
-            
+            <li>✔️ Machine Learning Techniques in MATLAB - MathWorks</li>
+            <li>✔️ Machine Learning Specialization - DeepLearning.AI</li>
+            <li>✔️ Google Data Analytics Professional Certification</li>
+            <li>✔️ MATLAB Programming for Engineers and Scientists - Vanderbilt University</li>
+            <li>✔️ Data Analysis with R Programming - Google</li>
+            <li>✔️ Probability - The Science of Uncertainty and Data - MIT</li>
+            <li>✔️ Differential Equations and Linear Algebra - MIT</li>
+        </ul>
+    </section>
 
-          
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>💻 Technical Skills</h2>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li>✔️ Machine Learning (Intermediate)</li>
+            <li>✔️ Data Analysis (Intermediate)</li>
+            <li>✔️ MATLAB (Intermediate)</li>
+            <li>✔️ Python (Intermediate)</li>
+            <li>✔️ R (Intermediate)</li>
+            <li>✔️ Problem Solving (Intermediate)</li>
+            <li>✔️ MS Office (Advanced)</li>
+        </ul>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards">
+        <h2>🏆 Awards and Honors</h2>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
+            <li>✔️ Stipendium Hungaricum Scholar, Government of Hungary (2024-2026)</li>
+            <li>✔️ PM's National Laptop Scheme Awardee (2023)</li>
+            <li>✔️ Merit Scholarship Holder from Government of Pakistan (2018)</li>
         </ul>
     </section>
 
@@ -127,6 +153,9 @@
     <section id="contact">
         <h2>📧 Contact</h2>
         <p>Email: <a href="mailto:waqar.soomro124@gmail.com">waqar.soomro124@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/waqarmaths">github.com/waqarmaths</a></p>
+        <p>LinkedIn: <a href="http://www.linkedin.com/in/waqaralimaths">linkedin.com/in/waqaralimaths</a></p>
+        <p>Website: <a href="https://waqarmaths.github.io">waqarmaths.github.io</a></p>
     </section>
 
     <!-- Footer -->
