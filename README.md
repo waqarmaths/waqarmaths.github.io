@@ -83,6 +83,7 @@
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#awards">Awards</a></li>
+                <li><a href="#extra">Extra-Curricular & Volunteer Work</a></li>
                 <li><a href="#languages">Languages</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -110,6 +111,13 @@
             <li><strong>Flowers Classification Project:</strong> Pre-trained model evaluation, feature concatenation, and ensemble modeling for high accuracy.</li>
             <li><strong>Gaussian Copula:</strong> Developed and visualized stochastic models for risk assessment using Python.</li>
             <li><strong>Vector Autoregression (VAR):</strong> Bayesian priors estimation, data truncation, forecasting, and impulse response analysis.</li>
+        </ul>
+    </section>
+
+    <!-- Extra-Curricular and Volunteer Work Section -->
+    <section id="extra">
+        <h2>✨ Extra-Curricular & Volunteer Work</h2>
+        <ul style="list-style: none; text-align: left; display: inline-block;">
             <li><strong>Community Service:</strong> Organized flood relief in Sindh, Pakistan (2022).</li>
             <li><strong>Volunteer Teaching:</strong> Enhanced literacy in underserved communities in Pakistan (2016-2017).</li>
         </ul>
