@@ -143,9 +143,25 @@
                     </ul>
                 </li>
             </ul>
+            <li><strong>Operations Research Specialization:</strong></li>
+            <ul>
+                <li>Operations Research (1): Models and Applications</li>
+                <li>Operations Research (2): Optimization Algorithms</li>
+                <li>Operations Research (3): Theory</li>
+            </ul>
+            <li><strong>Introduction to Logic and Critical Thinking Specialization:</strong></li>
+            <ul>
+                <li>Think Again I: How to Understand Arguments</li>
+                <li>Think Again II: How to Reason Deductively</li>
+                <li>Think Again III: How to Reason Inductively</li>
+                <li>Think Again IV: How to Avoid Fallacies</li>
+            </ul>
             <li><strong>Data Analysis:</strong></li>
             <ul>
                 <li>Google Data Analytics Professional Certification (5/8 courses)</li>
+                <li>Calculate Basic Descriptive Statistics in Google Sheets by Coursera Network Project</li>
+                <li>Interpret Population and Sample Variances in Google Sheets by Coursera Network Project</li>
+                <li>Chi-Squared Test in Google Sheets by Deprecated Guided Projects</li>
             </ul>
             <li><strong>MATLAB Programming:</strong></li>
             <ul>
@@ -163,6 +179,11 @@
             <ul>
                 <li>Data Analysis with R Programming from Google</li>
             </ul>
+            <li><strong>Microsoft Excel:</strong></li>
+            <ul>
+                <li>Introduction to Data Analysis using Microsoft Excel by Project Network</li>
+                <li>Problem Solving Using Microsoft Excel by Deprecated Guided Projects</li>
+            </ul>
             <li><strong>Mathematics and Problem Solving:</strong></li>
             <ul>
                 <li>Problem Solving Using Computational Thinking from University of Michigan</li>
@@ -170,6 +191,10 @@
                 <li>Differential Equations: 2x2 Systems from MIT</li>
                 <li>Differential Equations: Linear Algebra and NxN Systems of Differential Equations from MIT</li>
                 <li>Differential Equations: Fourier Series and Partial Differential Equations from MIT</li>
+                <li>Vector Calculus for Engineers from Hong Kong University of Science and Technology</li>
+                <li>Matrix Algebra for Engineers from Hong Kong University of Science and Technology</li>
+                <li>Fibonacci Numbers and the Golden Ratio by Hong Kong University of Science and Technology</li>
+                <li>Calculus through Data & Modelling: Series and Integration by John Hopkins University</li>
             </ul>
         </ul>
     </section>
