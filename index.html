@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Waqar Ali Soomro</title>
+<meta name="author" content="Waqar Ali Soomro">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Waqar Ali Soomro">
+<meta property="og:description" content="Probability and stochastic processes. MSc Applied Mathematics (Stochastics), Budapest University of Technology and Economics.">
+<meta property="og:url" content="https://waqarmaths.github.io/">
+<meta property="og:image" content="https://waqarmaths.github.io/photo.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231D3B6E'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' text-anchor='middle' fill='%23FFFFFF'%3EW%3C/text%3E%3C/svg%3E">
+<meta name="description" content="Waqar Ali Soomro: probability and stochastic processes. MSc Applied Mathematics (Stochastics), Budapest University of Technology and Economics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;display=swap">
+<style>
+  /* Layout: a plain faculty-style homepage. A thin header bar with links, then one reading column; dates sit in a narrow left column. */
+  :root {
+    --bg: #FFFFFF;
+    --panel: #F1F3F6;
+    --ink: #141821;
+    --soft: #2B3240;
+    --muted: #596170;
+    --accent: #1D3B6E;
+    --rule: #DADFE6;
+    --serif: 'Source Serif 4', 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+    --sans: 'Source Sans 3', 'Source Sans Pro', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0F141D;
+      --panel: #161D29;
+      --ink: #E7EAF0;
+      --soft: #C8CEDA;
+      --muted: #98A2B3;
+      --accent: #A9C4F5;
+      --rule: #283142;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0F141D;
+    --panel: #161D29;
+    --ink: #E7EAF0;
+    --soft: #C8CEDA;
+    --muted: #98A2B3;
+    --accent: #A9C4F5;
+    --rule: #283142;
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; height: auto; }
+  p { margin: 0; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+  .wrap {
+    max-width: 1012px;
+    margin-inline: auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+
+  /* Header bar */
+  .site-header { background: var(--panel); border-bottom: 1px solid var(--rule); }
+  .bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 28px;
+    font-family: var(--sans);
+  }
+  .home { padding-block: 13px; font-size: 17px; font-weight: 600; color: var(--ink); text-decoration: none; }
+  .site-nav { display: flex; flex-wrap: wrap; column-gap: 22px; font-size: 16px; }
+  .site-nav a { padding-block: 12px; text-decoration: none; }
+  .site-nav a:hover { text-decoration: underline; }
+
+  main { padding-block: 48px 8px; }
+
+  /* Introduction */
+  .intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 24px 48px;
+    align-items: start;
+    margin-bottom: 44px;
+  }
+  .intro-text { display: grid; gap: 12px; min-width: 0; }
+  h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  .field { font-size: 20px; font-style: italic; color: var(--accent); }
+  .position { margin-top: 4px; color: var(--soft); line-height: 1.55; }
+  .quick { margin-top: 4px; font-family: var(--sans); font-size: 16px; color: var(--soft); }
+  .portrait { display: block; width: 176px; height: 220px; object-fit: cover; border: 1px solid var(--rule); }
+
+  /* Sections */
+  section { margin-bottom: 40px; }
+  h2 {
+    margin: 0 0 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-wrap: balance;
+  }
+  h3 { margin: 0; }
+  .prose { display: grid; gap: 14px; max-width: 70ch; }
+  .work-title { font-size: 21px; font-style: italic; line-height: 1.3; text-wrap: balance; }
+  .work-meta { margin-top: 4px; font-family: var(--sans); font-size: 16px; color: var(--muted); }
+  .formula { margin-block: 6px; text-align: center; font-size: 21px; }
+  .formula sub, .formula sup { font-size: 0.66em; line-height: 0; }
+  .formula .cond { margin-left: 0.6em; font-size: 0.78em; color: var(--muted); }
+
+  /* Publications */
+  .group { margin-bottom: 8px; font-family: var(--sans); font-size: 15px; font-weight: 600; color: var(--soft); }
+  .pubs { margin: 0 0 18px; padding: 0; list-style: none; display: grid; gap: 10px; max-width: 70ch; }
+  .pubs:last-child { margin-bottom: 0; }
+  .pubs li { display: grid; grid-template-columns: 2.4em minmax(0, 1fr); }
+  .num { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .venue { color: var(--soft); }
+
+  /* Dated entries */
+  .dated { display: grid; gap: 14px; max-width: 76ch; }
+  .row { display: grid; grid-template-columns: 120px minmax(0, 1fr); column-gap: 24px; }
+  .when {
+    padding-top: 2px;
+    font-family: var(--sans);
+    font-size: 15.5px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .note { color: var(--soft); }
+  .after { margin-top: 14px; max-width: 76ch; }
+
+  /* Contact */
+  .contact { display: flex; flex-wrap: wrap; gap: 20px 56px; }
+  .contact > div { flex: 1 1 260px; min-width: 0; }
+  .label { margin-bottom: 4px; font-family: var(--sans); font-size: 15px; font-weight: 600; color: var(--soft); }
+  address { font-style: normal; line-height: 1.5; }
+  .links { margin: 0; padding: 0; list-style: none; display: grid; gap: 2px; }
+  .links a { overflow-wrap: anywhere; }
+
+  /* Footer */
+  .site-footer p {
+    padding-block: 16px 40px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--sans);
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  /* Phones */
+  @media (max-width: 640px) {
+    body { font-size: 17px; }
+    .site-nav { column-gap: 16px; font-size: 15px; }
+    main { padding-block: 28px 0; }
+    .intro { grid-template-columns: minmax(0, 1fr); gap: 18px; margin-bottom: 36px; }
+    .portrait { order: -1; width: 120px; height: 150px; }
+    h1 { font-size: 34px; }
+    .field { font-size: 19px; }
+    .row { grid-template-columns: minmax(0, 1fr); row-gap: 2px; }
+    .when { padding-top: 0; }
+  }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="home" href="#top">Waqar Ali Soomro</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="cv.pdf">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="wrap">
+
+  <div class="intro">
+    <div class="intro-text">
+      <h1>Waqar Ali Soomro</h1>
+      <p class="field">Probability · stochastic processes · random walks with memory</p>
+      <p class="position">MSc Applied Mathematics (Stochastics), 2026<br>Teaching assistant, Institute of Mathematics<br>Budapest University of Technology and Economics</p>
+      <p class="quick">Email: <a href="mailto:waqar.soomro124@gmail.com">waqar.soomro124@gmail.com</a> · <a href="cv.pdf">Curriculum vitae (PDF)</a></p>
+    </div>
+    <img class="portrait" src="photo.jpg" width="176" height="220" alt="Portrait of Waqar Ali Soomro">
+  </div>
+
+  <section id="research">
+    <h2>Research</h2>
+    <div class="prose">
+      <p>I work in probability theory, with a focus on random walks with memory and the martingale methods used to identify their scaling limits. My MSc thesis, supervised by Dr Bálint Vető, studied the Elephant Random Walk in its superdiffusive regime. I am also interested in limit theorems and large deviations, and in Monte Carlo methods for stochastic simulation.</p>
+      <p>Earlier, in a Project Laboratory supervised by Dr Roland Molontay (2024–25), I carried out a panel-data econometric analysis of ten-year sovereign bond yields against debt-to-GDP ratios for the Visegrád Four, followed by machine-learning methods on structured graph data.</p>
+    </div>
+  </section>
+
+  <section id="thesis">
+    <h2>Thesis</h2>
+    <div class="prose">
+      <div>
+        <p class="work-title">Limiting Distribution of the Elephant Random Walk in the Superdiffusive Regime</p>
+        <p class="work-meta">MSc thesis, BME Institute of Mathematics, 2026 · Supervisor: Dr Bálint Vető</p>
+      </div>
+      <p>The Elephant Random Walk is a non-Markovian walk whose next step repeats, with probability <i>p</i>, a uniformly chosen earlier step, and reverses it otherwise. For <i>p</i> &gt; 3/4 the walk is superdiffusive and, after rescaling, converges to a non-Gaussian limit.</p>
+      <p class="formula"><i>S</i><sub><i>n</i></sub> / <i>n</i><sup>2<i>p</i> − 1</sup> → <i>L</i><span class="cond">almost surely, for <i>p</i> &gt; 3/4</span></p>
+      <p>The thesis gives a largely self-contained treatment of the two established routes to this limit: Bercu’s martingale method and the Guérin–Laulin–Raschel fixed-point equation, with proofs expanded and filled in. The third- and fourth-moment computations, only sketched in Bercu’s paper, are carried out in full by a Gamma-telescoping argument, and the two approaches are shown to give identical moments up to fourth order.</p>
+      <p>Defended publicly on 7 July 2026 before a committee of Prof. Marianna Bolla, Dr Balázs Ráth and Dr Attila Nagy.</p>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <h3 class="group">Conference papers</h3>
+    <ol class="pubs">
+      <li><span class="num">[1]</span><span>M. Meghwar, W. A. Soomro, T. Kovács, and B. Lal. <cite>ACF-guided LSTM framework for multi-step indoor temperature forecasting in IoT smart buildings.</cite> <span class="venue">IEEE Smart World Congress 2026, Italy. Accepted.</span></span></li>
+    </ol>
+    <h3 class="group">Theses</h3>
+    <ol class="pubs">
+      <li><span class="num">[2]</span><span>W. A. Soomro. <cite>Limiting distribution of the Elephant Random Walk in the superdiffusive regime.</cite> <span class="venue">MSc thesis, Budapest University of Technology and Economics, 2026.</span></span></li>
+    </ol>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="dated">
+      <div class="row">
+        <span class="when">2024 – 2026</span>
+        <p><strong>MSc Applied Mathematics</strong>, specialisation in Stochastics, Budapest University of Technology and Economics. <span class="note">Final classification <em>excellent with highest honours</em> (4.73 / 5.00); Stipendium Hungaricum scholar.</span></p>
+      </div>
+      <div class="row">
+        <span class="when">from 2026</span>
+        <p><strong>Partial studies</strong> in probability and stochastic processes <span class="note">(<i lang="hu">részismereti képzés</i>)</span>, Budapest University of Technology and Economics.</p>
+      </div>
+      <div class="row">
+        <span class="when">2022 – 2024</span>
+        <p><strong>M.S. Applied Mathematics</strong>, coursework completed, NED University of Engineering and Technology, Karachi. <span class="note">GPA 3.96 / 4.00.</span></p>
+      </div>
+      <div class="row">
+        <span class="when">2017 – 2021</span>
+        <p><strong>BE Civil Engineering</strong>, Mehran University of Engineering and Technology, Khairpur Mir’s.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <div class="dated">
+      <div class="row">
+        <span class="when">Autumn 2026</span>
+        <p>Probability Theory 1 (demonstrator); Calculus 1 (teaching assistant); Mathematics G3k for professional pilots (examination grading).</p>
+      </div>
+      <div class="row">
+        <span class="when">Spring 2026</span>
+        <p>Calculus 2, groups G2f and A2a (teaching assistant). Wrote the midterm, retake and combined examination papers and the weekly exercise sheets with full solutions, typeset in LaTeX.</p>
+      </div>
+    </div>
+    <p class="after note">All at the Institute of Mathematics, Budapest University of Technology and Economics.</p>
+  </section>
+
+  <section id="service">
+    <h2>Service</h2>
+    <div class="dated">
+      <div class="row">
+        <span class="when">2027</span>
+        <p><strong>Examination supervisor</strong>, 68th International Mathematical Olympiad, Budapest, July 2027. Selected by the national organising committee.</p>
+      </div>
+      <div class="row">
+        <span class="when">since 2026</span>
+        <p><strong>Founder</strong>, BME International Mathematics Support Society, a student initiative helping international students at BME with mathematics; to be inaugurated in 2026–27 under the BME International Affairs Committee.</p>
+      </div>
+      <div class="row">
+        <span class="when">2022</span>
+        <p><strong>Flood-relief volunteer</strong>, northern Sindh: fundraising and distribution of rations and clothing to displaced families.</p>
+      </div>
+      <div class="row">
+        <span class="when">2016 – 2017</span>
+        <p><strong>Volunteer teacher</strong>, Lakhi, Sindh: reading and elementary mathematics for primary-age children.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="scholarships">
+    <h2>Scholarships</h2>
+    <div class="dated">
+      <div class="row">
+        <span class="when">2024 – 2026</span>
+        <p><strong>Stipendium Hungaricum Scholarship</strong>, full Hungarian government scholarship for MSc study at BME, administered by Tempus Public Foundation.</p>
+      </div>
+      <div class="row">
+        <span class="when">2023</span>
+        <p><strong>Prime Minister’s National Laptop Scheme</strong>, awarded on academic merit by the Higher Education Commission of Pakistan.</p>
+      </div>
+      <div class="row">
+        <span class="when">2017 – 2021</span>
+        <p><strong>Government of Pakistan need-based scholarship</strong> for undergraduate study at Mehran University of Engineering and Technology.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <div>
+        <h3 class="label">Postal address</h3>
+        <address>Institute of Mathematics<br>Budapest University of Technology and Economics<br>Egry József u. 1, Building H<br>H-1111 Budapest, Hungary</address>
+      </div>
+      <div>
+        <h3 class="label">Email and links</h3>
+        <ul class="links">
+          <li><a href="mailto:waqar.soomro124@gmail.com">waqar.soomro124@gmail.com</a></li>
+          <li><a href="https://github.com/waqarmaths">github.com/waqarmaths</a></li>
+          <li><a href="https://www.linkedin.com/in/waqaralimaths">linkedin.com/in/waqaralimaths</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="after">Languages: Sindhi and Urdu (native), English (B2, onSET).</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap"><p>Last updated October 2026</p></div>
+</footer>
+</body>
+</html>
